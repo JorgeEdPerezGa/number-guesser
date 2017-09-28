@@ -1,0 +1,87 @@
+*{
+  font-family:"Open Sans";
+  font-weight: 300;
+}
+
+h1{
+  color: #ED458B;
+  font-weight: 600;
+  margin: 20px;
+}
+
+span{
+  color: #E6E7E8;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input{
+  font-size: 35px;
+  margin-bottom: 30px;
+  padding: 2px 10px 4px;
+}
+
+input:focus{
+  outline: 0;
+}
+
+button{
+  background: #929497;
+  color: #FFFFFF;
+  border-radius: 100px;
+  padding: 5px 60px 5px 60px;
+  font-size: 25px;
+  border: none;
+  margin: 15px;
+  height: 45px;
+}
+
+button:hover{
+  background: #EB008B;
+  cursor: pointer;
+}
+
+button:disabled{
+  background: #D0D2D3;
+  cursor: default;
+}
+
+.title{
+  background: #404041;
+  padding: 1px 1px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.input-field-and-buttons{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.number-text-and-reset{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.body-text{
+  font-size: 30px;
+  margin: 0px;
+}
+
+.number{
+  font-size: 200px;
+  color: #ED458B;
+  margin: -20px;
+}
+
+.reset-button{
+  width: 35%;
+  padding: 5px 20px 5px 20px;
+  margin-top: 30px;
+  font-size: 20px;
+}

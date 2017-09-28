@@ -3,13 +3,30 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>Number Guesser</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   </head>
   <body>
+    <section>
+      <article class="title">
+        <h1>Number <span>Guesser</span></h1>
+      </article>
+      <article class="input-field-and-buttons">
+       <input class="input-field" type="number" placeholder="Enter your guess" onfocus="">
+       <div class="button-container">
+        <button class="guess-button" name="button" disabled>Guess</button>
+        <button class="clear-button" name="button" disabled>Clear</button>
+       </div>
+      </article>
+      <article class="number-text-and-reset">
+        <p class="body-text">Your last guess was</p>
+        <p class="number">#</p>
+        <p class="clue body-text">clue</p>
+          <button class="reset-button" name="button" disabled>Reset</button>
+      </article>
+    </section>
 
 
-    <script type="text/javascript" src="style.js">
-
-    </script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
